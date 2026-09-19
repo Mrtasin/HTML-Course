@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 7</title>
+
+    <style>
+      .coders {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+      #form {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: lightblue;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <div id="form">
+        <div class="coders">
+          <label for="Phone">Phone:</label>
+          <input
+            type="tel"
+            name="Phone"
+            required
+            placeholder="+91 1247224734"
+            pattern="[+]{1}[0-9]{2}[ ]{1}[0-9]{10}"
+          />
+        </div>
+        <div class="coders">
+          <label for="comment">Comment:</label>
+          <textarea
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
