@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 9</title>
+  </head>
+  <body>
+    <h1>Welcome to Day 9</h1>
+    <h2>Today's Activities</h2>
+    <ul>
+      <li>Normal Video</li>
+      <li>YouTube Video</li>
+      <li>Audio Song</li>
+    </ul>
+    <br />
+
+    <h2>We are adding Normal Videos</h2>
+    <video width="320" height="540" controls autoplay muted loop>
+      <source src="reel.mp4" type="video/mp4" />
+      <source src="reel.webm" type="video/webm" />
+
+      <track src="reel.vtt" kind="subtitles" srclang="en" label="English" />
+
+      Your browser does not support the video tag.
+    </video>
+
+    <br />
+    <h2>We are adding Audio Songs</h2>
+    <audio controls autoplay loop muted>
+      <source src="shotgun.mp3" type="audio/mp3" />
+      Your browser does not support the audio tag.
+    </audio>
+
+    <br />
+    <h2>We are adding YouTube Videos</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/yvyHdyu-C38?si=MpDURDovYWue7YpC"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube-nocookie.com/embed/yvyHdyu-C38?si=xoCOd3xqIGCYvCr0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
