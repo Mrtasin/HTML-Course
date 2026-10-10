@@ -1,0 +1,27 @@
+/* h1, p{
+    color: blue;
+    text-align: center;
+}
+
+/* #title{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+} */
+
+/* .note{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}  */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8b8383;
+    text-align: center;
+}
