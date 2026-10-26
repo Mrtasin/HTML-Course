@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="day3.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="welcome-heading">Welcome Back</h1>
+      <form id="login-form" action="#">
+        <div class="form-group">
+          <label for="username" class="form-label">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="form-input"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="form-input"
+            required
+          />
+        </div>
+        <div class="form-group" id="forgot-password">
+          <span> <a href="#">Forgot Password?</a></span>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="button">Signup</button>
+        </div>
+      </form>
+      <span>Don't have an account? <a href="#">Signup</a></span>
+    </div>
+  </body>
+</html>
