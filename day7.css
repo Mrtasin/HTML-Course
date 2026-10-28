@@ -1,0 +1,30 @@
+.root{
+    width: 50%;
+    height: 10rem;
+    background: linear-gradient(to right, red 0%, blue 10%, green 90%);
+    margin-bottom: 20px;
+}
+
+/* .root1{
+    width: 50%;
+    height: 40rem;
+    background: conic-gradient(red 0% 25%, blue 33% 60%, green 70% 90%, yellow 90% 100%);
+}
+.root1{
+    width: 50%;
+    height: 40rem;
+    background: repeating-conic-gradient(red 0% 12%, blue 12% 25%, green 25% 37%, yellow 37% 50%);
+} */
+
+
+
+.btn{
+    width: 150px;
+    height: 50px;
+    
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;   
+    background: linear-gradient(to bottom right, #2563eb, #9333ea, #f43f5e, #facc15); 
+}
