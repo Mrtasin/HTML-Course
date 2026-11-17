@@ -1,4 +1,7 @@
 .profile-card{
+    position: relative;
+    left: 50%;
+    right: 50%;
     border: 1px solid rgb(255, 254, 254);
     border-radius: 25px;
     height: 250px;
